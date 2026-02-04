@@ -49,3 +49,51 @@ SUEVAL/
 │  └─ utils.py  
 └─ examples/  
    └─ demo_sueval.ipynb       # Usage demo  
+
+⚙️ Dependencies
+Install core dependencies:
+
+bash
+pip install \
+  numpy pandas matplotlib seaborn scikit-learn \
+  xgboost catboost torch statsmodels
+Core libraries used (not exhaustive):
+
+python
+import os
+import datetime
+import warnings
+warnings.filterwarnings("ignore")
+
+import numpy as np
+import pandas as pd
+from scipy.stats import rankdata as _rankdata
+
+import matplotlib.pyplot as plt
+from matplotlib.ticker import MaxNLocator
+import seaborn as sns
+
+from sklearn.model_selection import (
+    train_test_split, cross_val_score, KFold, RepeatedKFold
+)
+from sklearn.preprocessing import StandardScaler, MinMaxScaler
+from sklearn.pipeline import Pipeline
+from sklearn.metrics import (
+    mean_squared_error, r2_score, mean_absolute_error, make_scorer
+)
+
+from sklearn.ensemble import RandomForestRegressor
+from sklearn.svm import SVR
+from sklearn.neighbors import KNeighborsRegressor
+from sklearn.tree import DecisionTreeRegressor
+from sklearn.neural_network import MLPRegressor
+
+from xgboost import XGBRegressor
+from catboost import CatBoostRegressor
+
+import torch
+import torch.nn as nn
+from torch.utils.data import DataLoader, TensorDataset
+
+import statsmodels.api as sm
+from statsmodels.stats.multitest import multipletests
