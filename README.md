@@ -172,7 +172,7 @@ If you use **SUEVAL** in research or applications, you may cite it as:
 
 SUEVAL: A supervised–unsupervised, D–S–A based dynamic evaluation framework with time‑varying and structurally decomposed composite indices.
 
-## 📁 Project Structure (example)
+## 📁 Project Structure
 
 ```text  
 SUEVAL/  
