@@ -2,8 +2,8 @@
 
 SUEVAL (Supervised–Unsupervised Evaluation) is a **D–S–A based dynamic evaluation framework** that fuses supervised and unsupervised information to build **time‑comparable, structurally decomposed, and interpretable composite indices**.
 
-> Algorithm overview: `SUEVAL/SUEVAL_design.png`
-
+> Algorithm overview: (SUEVAL_design.png)
+![数据预处理模型框架](model_frame_diagram.jpg)
 ---
 
 ## 🔍 Key Ideas
