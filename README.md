@@ -170,7 +170,7 @@ Any composite evaluation task requiring learned **weights + temporal dynamics + 
 ## 📖 Citation & Contribution
 If you use **SUEVAL** in research or applications, you may cite it as:
 
-SUEVAL: A supervised–unsupervised, D–S–A based dynamic evaluation framework with time‑varying and structurally decomposed composite indices.
+Lai, Yawen, SUEVAL: An integrated urban evaluation model incorporating semi-supervised temporal structures. Available at SSRN: https://ssrn.com/abstract=7148586 or http://dx.doi.org/10.2139/ssrn.7148586
 
 ## 📁 Project Structure
 
